@@ -139,3 +139,15 @@ body {
     background: transparent;
     border: none;
 }
+
+.fb {
+    color: steelblue;
+}
+
+.yt {
+    color: red;
+}
+
+.twit {
+    color: dodgerblue;
+}
