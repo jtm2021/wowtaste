@@ -129,5 +129,9 @@ The live link can be found here - https://jtm2021.github.io/eu-capital-quiz/
 
 ### Content Information ###
 
-- The site content information are sourced from Wikipedia. See link below:
-    - https://en.wikipedia.org/wiki/European_Union
+- The site content information are sourced from Wikipedia. See links below:
+    - https://en.wikipedia.org/wiki/Tuber_melanosporum
+    - https://en.wikipedia.org/wiki/Black_garlic#:~:text=Black%20garlic%20is%20a%20type,that%20results%20in%20black%20cloves.
+    - https://en.wikipedia.org/wiki/Beluga_caviar
+    - https://en.wikipedia.org/wiki/Abalone
+    - https://en.wikipedia.org/wiki/Kopi_luwak
