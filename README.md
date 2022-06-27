@@ -115,12 +115,17 @@ The live link can be found here - https://jtm2021.github.io/eu-capital-quiz/
 ## Credits ##
 
 ### Content ###
-- Some codes were inspired and taken from a youtube tutorial by Web Dev Simplified. The intention was to use the tutorial as a guide in creating this project. [https://www.youtube.com/watch?v=riDzcEQbX6k&t=1321s]
+- This project was inspired and based on Code Institute's `I Think Therefore I Blog` project.
 
 ### Media ###
 
-- The background image of the website was taken from [Pixabay.com](https://pixabay.com/). The link is provided below:
-    - https://pixabay.com/photos/european-union-european-parliament-6405066/
+- The images of the blog were taken from [Pexels.com](https://pixabay.com/). The links are provided below:
+    - https://www.pexels.com/photo/photo-of-truffles-on-the-plate-783153/
+    - https://www.pexels.com/photo/food-vegetables-table-leaf-216368/
+    - https://www.pexels.com/photo/black-caviar-and-cheese-on-crackers-4161713/
+    - https://www.pexels.com/photo/coffee-beans-on-round-wok-2711959/
+    - https://www.pexels.com/photo/close-up-of-abalone-rice-hot-pot-8896087/
+    - https://www.pexels.com/photo/burger-and-smoothie-with-bowl-of-dried-bananas-and-dates-4553020/
 
 ### Content Information ###
 
