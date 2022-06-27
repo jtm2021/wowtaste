@@ -59,6 +59,14 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
 <br>
 
+- ### Likes/Comments ###
+    - This feature allows users to like and leave comments in each post.
+    - After commenting, this will be subject for admin approval. Once the admin approves the comment then it is displayed in the comment section.
+ 
+![Login Page](../wowtaste/media/login.PNG)
+
+<br>
+
 ## Testing ##
 
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
