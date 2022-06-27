@@ -1,108 +1,128 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# WOW.taste blog
 
-Welcome jtm2021,
+WOW.taste is a simple blog that features various exotic ingredients, spices and flavours all around the world. Each post in the blog features a certain food item or ingredient and highlights its description, characteristics and its uses. Users who are curious to read about each article can easily click on each post and they can opt to sign up and like any posts in the blog and they can leave a comment if they want to.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+![Mockup Screenshot](media/mockup-screen.jpg)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Features ##
+- ### The Header ###
+    - The header of the page features the name of the game.
+    - This section is displayed on the left side of the page next to the navigation bar. 
+    - The header is also clickable which redirects the user back to the main page.
 
-A blue button should appear to click: _Make Public_,
+![Header](../wowtaste/media/header.PNG)
 
-Another blue button should appear to click: _Open Browser_.
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- ### Navigation ###
+    - The navigation bar is located to the header. It is simple yet an effective feature of the website.
+    - The navigation includes three links to different sections and these are accessible in each page.
+    - This feature provides easy navigation for users from page to page across different devices.
 
-A blue button should appear to click: _Make Public_,
+![Navigation Bar](../wowtaste/media/navbar.png)
 
-Another blue button should appear to click: _Open Browser_.
+<br>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+- ### Footer Section ###
+    - The footer section of the blog is a simple section that provides a social media link to Facebook, YouTube and Twitter.
+    
+ 
+![Footer](../wowtaste/media/footer.PNG)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<br>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- ### Home Page ###
+    - The home page section features the whole content of the blog.
+    - It features different posts that are clickable and redirects the user to each individual article.
 
-------
 
-## Release History
+![Home Page](../wowtaste/media/main-page.PNG)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<br>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- ### Register Page ###
+    - This register page features a form for users to fill out if they want to sign up for the blog.
+ 
+![Register Page](../wowtaste/media/sign-up.PNG)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<br>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- ### Login Page ###
+    - This login page features a form for users to fill out if they want to log in.
+ 
+![Login Page](../wowtaste/media/login.PNG)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<br>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing ##
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
+    - Firefox 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+    ![Firefox](images-readme/mozilla.jpg)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+    - Microsoft Edge
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+    ![Microsoft Edge](images-readme/edge.jpg)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+    - Google Chrome
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    ![Google Chrome](images-readme/google.jpg)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.    
+- I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
+- I have confirmed that the contact form works and that each input field will only accept the required details from the users and that the send message button works correctly.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<br>
 
-------
+### Bugs ###
+- No bugs identified.
 
-## FAQ about the uptime script
+### Validator Testing ###
+- HTML - No errors were returned when passing through the official [**W3C validator**](https://validator.w3.org/#validate_by_input+with_options)
+    - Home Page
+        ![HTML Home Page](images-readme/home.jpg)
+    - Game Page
+        ![HTML Game Page](images-readme/game.jpg)
+    - Help Page
+        ![HTML Guide Page](images-readme/guide.jpg)
 
-**Why have you added this script?**
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- CSS - No errors were found when passing through the official [**(Jigsaw) validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - ![CSS](images-readme/css.jpg)
 
-**How will this affect me?**
+- Lighthouse - I've tested the performance of the page using Google Chrome Lighthouse.
+    - ![Lighthouse](images-readme/lighthouse.jpg)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<br>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment ##
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+    - Open a web browser (like Chrome, Firefox or Edge)
+    - Login to Github and locate repositories.
+    - In the GitHub repository, navigate to the Settings tab.
+    - Go to pages tab and from the source section drop-down menu, select the main Branch and then click save button.
+    - Once the main branch has been selected and saved, the page provided a link the completed website. 
+The live link can be found here - https://jtm2021.github.io/eu-capital-quiz/
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<br>
 
-**So….?**
+## Credits ##
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Content ###
+- Some codes were inspired and taken from a youtube tutorial by Web Dev Simplified. The intention was to use the tutorial as a guide in creating this project. [https://www.youtube.com/watch?v=riDzcEQbX6k&t=1321s]
 
-**Can I opt out?**
+### Media ###
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- The background image of the website was taken from [Pixabay.com](https://pixabay.com/). The link is provided below:
+    - https://pixabay.com/photos/european-union-european-parliament-6405066/
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### Content Information ###
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- The site content information are sourced from Wikipedia. See link below:
+    - https://en.wikipedia.org/wiki/European_Union
