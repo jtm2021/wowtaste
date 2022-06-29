@@ -7,3 +7,4 @@ class TestUrls(SimpleTestCase):
     def test_post_list_url(self):
         url = reverse("home")
         self.assertEquals("/", url)
+        self.assertEquals(resolve(url), PostList)
