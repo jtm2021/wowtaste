@@ -10,7 +10,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
     - This section is displayed on the left side of the page next to the navigation bar. 
     - The header is also clickable which redirects the user back to the main page.
 
-![Header](../wowtaste/media/header.PNG)
+![Header](/media/header.PNG)
 
 <br>
 
@@ -19,7 +19,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
     - The navigation includes three links to different sections and these are accessible in each page.
     - This feature provides easy navigation for users from page to page across different devices.
 
-![Navigation Bar](../wowtaste/media/navbar.png)
+![Navigation Bar](/media/navbar.png)
 
 <br>
 
@@ -28,7 +28,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
     - The footer section of the blog is a simple section that provides a social media link to Facebook, YouTube and Twitter.
     
  
-![Footer](../wowtaste/media/footer.PNG)
+![Footer](/media/footer.PNG)
 
 <br>
 
@@ -37,7 +37,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
     - It features different posts that are clickable and redirects the user to each individual article.
 
 
-![Home Page](../wowtaste/media/main-page.PNG)
+![Home Page](/media/main-page.PNG)
 
 
 <br>
@@ -45,27 +45,27 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 - ### Register Page ###
     - This register page features a form for users to fill out if they want to sign up for the blog.
  
-![Register Page](../wowtaste/media/sign-up.PNG)
+![Register Page](/media/sign-up.PNG)
 
 <br>
 
 - ### Login/Logout Page ###
     - This login page features a form for users to fill out if they want to log in. A message will also pop out to ask user if they want to logout from the blog.
  
-![Login Page](../wowtaste/media/login.PNG)
-![Logout Page](../wowtaste/media/logout.PNG)
+![Login Page](/media/login.PNG)
+![Logout Page](/media/logout.PNG)
 
 <br>
 
 - ### Likes/Comments ###
     - This feature allows users to like and leave comments in each post.
-    ![Likes](../wowtaste/media/like.PNG)
+    ![Likes](/media/like.PNG)
 
     - After commenting, this will be subject for admin approval. 
-    ![Comments](../wowtaste/media/comments.PNG)
+    ![Comments](/media/comments.PNG)
     
     - Once the admin approves the comment then it is displayed in the comment section.
-    ![Comments Approval](../wowtaste/media/comments-approval.PNG)
+    ![Comments Approval](/media/comments-approval.PNG)
 
 <br>
 
@@ -74,15 +74,15 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
     - Firefox 
 
-    ![Firefox](../wowtaste/media/mozilla.PNG)
+    ![Firefox](/media/mozilla.PNG)
 
     - Microsoft Edge
 
-    ![Microsoft Edge](../wowtaste/media/edge.PNG)
+    ![Microsoft Edge](/media/edge.PNG)
 
     - Google Chrome
 
-    ![Google Chrome](../wowtaste/media/chrome.PNG)
+    ![Google Chrome](/media/chrome.PNG)
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.    
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
@@ -95,26 +95,26 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
 ### Validator Testing ###
 - Javascript - The project only uses a small of javascript and this was tested using [**JShint**](https://jshint.com/)
-    ![Javascript](../wowtaste/media/javascript.PNG)
+    ![Javascript](/media/javascript.PNG)
 
 
 - Python - No errors were found when passing through the official [**Pep8**](http://pep8online.com/) requirements
     #### admin.py ####
-    ![admin](../wowtaste/media/adminpy.PNG)
+    ![admin](/media/adminpy.PNG)
     #### apps.py ####
-    ![app](../wowtaste/media/appspy.PNG)
+    ![app](/media/appspy.PNG)
     #### asgi.py ####
-    ![asgi](../wowtaste/media/asgipy.PNG)
+    ![asgi](/media/asgipy.PNG)
     #### forms.py ####
-    ![forms](../wowtaste/media/formspy.PNG)
+    ![forms](/media/formspy.PNG)
     #### models.py ####
-    ![models](../wowtaste/media/models.PNG)
+    ![models](/media/models.PNG)
     #### urls.py ####
-    ![urls](../wowtaste/media/urlspy.PNG)
+    ![urls](/media/urlspy.PNG)
     #### views.py ####
-    ![views](../wowtaste/media/viewspy.PNG)
+    ![views](/media/viewspy.PNG)
     #### wsgi.py ####
-    ![wsgi](../wowtaste/media/wsgipy.PNG)
+    ![wsgi](/media/wsgipy.PNG)
 
 
 <br>
