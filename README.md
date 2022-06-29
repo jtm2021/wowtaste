@@ -74,15 +74,15 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
     - Firefox 
 
-    ![Firefox](images-readme/mozilla.jpg)
+    ![Firefox](../wowtaste/media/mozilla.PNG)
 
     - Microsoft Edge
 
-    ![Microsoft Edge](images-readme/edge.jpg)
+    ![Microsoft Edge](../wowtaste/media/edge.PNG)
 
     - Google Chrome
 
-    ![Google Chrome](images-readme/google.jpg)
+    ![Google Chrome](../wowtaste/media/chrome.PNG)
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.    
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
@@ -116,8 +116,6 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
     #### wsgi.py ####
     ![wsgi](../wowtaste/media/wsgipy.PNG)
 
-- Lighthouse - I've tested the performance of the page using Google Chrome Lighthouse.
-    - ![Lighthouse](images-readme/lighthouse.jpg)
 
 <br>
 
