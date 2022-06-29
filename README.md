@@ -96,17 +96,27 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 - No bugs identified.
 
 ### Validator Testing ###
-- HTML - No errors were returned when passing through the official [**W3C validator**](https://validator.w3.org/#validate_by_input+with_options)
-    - Home Page
-        ![HTML Home Page](images-readme/home.jpg)
-    - Game Page
-        ![HTML Game Page](images-readme/game.jpg)
-    - Help Page
-        ![HTML Guide Page](images-readme/guide.jpg)
+- Javascript - The project only uses a small of javascript and this was tested using [**JShint**](https://jshint.com/)
+    ![Javascript](../wowtaste/media/javascript.PNG)
 
 
-- CSS - No errors were found when passing through the official [**(Jigsaw) validator**](https://jigsaw.w3.org/css-validator/#validate_by_input)
-    - ![CSS](images-readme/css.jpg)
+- Python - No errors were found when passing through the official [**Pep8**](http://pep8online.com/) requirements
+    #### admin.py ####
+    ![admin](../wowtaste/media/adminpy.PNG)
+    #### apps.py ####
+    ![app](../wowtaste/media/appspy.PNG)
+    #### asgi.py ####
+    ![asgi](../wowtaste/media/asgipy.PNG)
+    #### forms.py ####
+    ![forms](../wowtaste/media/formspy.PNG)
+    #### models.py ####
+    ![models](../wowtaste/media/models.PNG)
+    #### urls.py ####
+    ![urls](../wowtaste/media/urlspy.PNG)
+    #### views.py ####
+    ![views](../wowtaste/media/viewspy.PNG)
+    #### wsgi.py ####
+    ![wsgi](../wowtaste/media/wsgipy.PNG)
 
 - Lighthouse - I've tested the performance of the page using Google Chrome Lighthouse.
     - ![Lighthouse](images-readme/lighthouse.jpg)
@@ -131,7 +141,7 @@ The live link can be found here - https://jtm2021.github.io/eu-capital-quiz/
 
 ### Media ###
 
-- The images of the blog were taken from [Pexels.com](https://pixabay.com/). The links are provided below:
+- The images of the blog were taken from [**Pexels.com**](https://pixabay.com/). The links are provided below:
     - https://www.pexels.com/photo/photo-of-truffles-on-the-plate-783153/
     - https://www.pexels.com/photo/food-vegetables-table-leaf-216368/
     - https://www.pexels.com/photo/black-caviar-and-cheese-on-crackers-4161713/
