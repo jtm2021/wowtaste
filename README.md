@@ -52,10 +52,11 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
 <br>
 
-- ### Login Page ###
-    - This login page features a form for users to fill out if they want to log in.
+- ### Login/Logout Page ###
+    - This login page features a form for users to fill out if they want to log in. A message will also pop out to ask user if they want to logout from the blog.
  
 ![Login Page](../wowtaste/media/login.PNG)
+![Logout Page](../wowtaste/media/logout.PNG)
 
 <br>
 
