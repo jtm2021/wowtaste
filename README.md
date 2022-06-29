@@ -4,9 +4,6 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
 
 
-![Mockup Screenshot](media/mockup-screen.jpg)
-
-
 ## Features ##
 - ### The Header ###
     - The header of the page features the name of the game.
@@ -125,13 +122,12 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 <br>
 
 ## Deployment ##
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- The site was deployed to Heroku website. The steps to deploy are as follows:
     - Open a web browser (like Chrome, Firefox or Edge)
-    - Login to Github and locate repositories.
-    - In the GitHub repository, navigate to the Settings tab.
-    - Go to pages tab and from the source section drop-down menu, select the main Branch and then click save button.
-    - Once the main branch has been selected and saved, the page provided a link the completed website. 
-The live link can be found here - https://jtm2021.github.io/eu-capital-quiz/
+    - Login to Heroku and go to deploy tab.
+    - In the manual deploy section, choose main branch.
+    - Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link the completed website. 
+The live link can be found here - https://wowtaste2022.herokuapp.com/
 
 <br>
 
