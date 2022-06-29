@@ -6,7 +6,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
 ## Features ##
 - ### The Header ###
-    - The header of the page features the name of the game.
+    - The header of the page features the name of the blog.
     - This section is displayed on the left side of the page next to the navigation bar. 
     - The header is also clickable which redirects the user back to the main page.
 
@@ -15,7 +15,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 <br>
 
 - ### Navigation ###
-    - The navigation bar is located to the header. It is simple yet an effective feature of the website.
+    - The navigation bar is located next to the header. It is simple yet an effective feature of the website.
     - The navigation includes three links to different sections and these are accessible in each page.
     - This feature provides easy navigation for users from page to page across different devices.
 
@@ -50,7 +50,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 <br>
 
 - ### Login/Logout Page ###
-    - This login page features a form for users to fill out if they want to log in. A message will also pop out to ask user if they want to logout from the blog.
+    - This login page features a form for users to fill out if they want to log in. A message will also pop out to ask the users if they want to logout of the blog.
  
 ![Login Page](/media/login.PNG)
 ![Logout Page](/media/logout.PNG)
@@ -63,9 +63,11 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
     - After commenting, this will be subject for admin approval. 
     ![Comments](/media/comments.PNG)
+    ![Comments Approval](/media/comments-approval.PNG)
     
     - Once the admin approves the comment then it is displayed in the comment section.
-    ![Comments Approval](/media/comments-approval.PNG)
+    ![Comments Done](/media/commentsdone.PNG)
+    
 
 <br>
 
@@ -86,7 +88,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.    
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
-- I have confirmed that the contact form works and that each input field will only accept the required details from the users and that the send message button works correctly.
+- I have confirmed that the signup form works.
 
 <br>
 
@@ -94,11 +96,11 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 - No bugs identified.
 
 ### Validator Testing ###
-- Javascript - The project only uses a small of javascript and this was tested using [**JShint**](https://jshint.com/)
+- Javascript - The project only uses a small part of javascript and this was tested using [**JShint**](https://jshint.com/)
     ![Javascript](/media/javascript.PNG)
 
 
-- Python - No errors were found when passing through the official [**Pep8**](http://pep8online.com/) requirements
+- Python - No errors were found when passing through the official [**PEP8**](http://pep8online.com/) requirements
     #### admin.py ####
     ![admin](/media/adminpy.PNG)
     #### apps.py ####
@@ -124,7 +126,7 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
     - Open a web browser (like Chrome, Firefox or Edge)
     - Login to Heroku and go to deploy tab.
     - In the manual deploy section, choose main branch.
-    - Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link the completed website. 
+    - Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link will be provided for the completed website. 
 The live link can be found here - https://wowtaste2022.herokuapp.com/
 
 <br>
