@@ -95,6 +95,8 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 ## Agile Project Goals ##
 - The project page was utilized in Github to serve as a guide in progressing through each stages of the project.
 
+![Agile Project Goals](/media/agilegoals.PNG)
+
 <br>
 
 ### Bugs ###
