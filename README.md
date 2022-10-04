@@ -2,7 +2,31 @@
 
 WOW.taste is a simple blog that features various exotic ingredients, spices and flavours all around the world. Each post in the blog features a certain food item or ingredient and highlights its description, characteristics and its uses. Users who are curious to read about each article can easily click on each post and they can opt to sign up and like any posts in the blog and they can leave a comment if they want to.
 
+## **CONTENTS**
 
+<details>
+<summary>
+Table of Contents (click here to expand)
+</summary>
+
+- Features
+- Navigation
+- Footer Section
+- Home Page
+- Register Page
+- Login/Logout Page
+- Likes/Comments
+- Testing
+- Agile Project Goals
+- Validator Testing
+- Deployment
+- Credits
+    - Content
+    - Media
+    - Content Information
+
+
+</details>
 
 ## Features ##
 - ### The Header ###
