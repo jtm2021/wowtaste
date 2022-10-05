@@ -9,24 +9,26 @@ WOW.taste is a simple blog that features various exotic ingredients, spices and 
 Table of Contents (click here to expand)
 </summary>
 
-- Features
-- Navigation
-- Footer Section
-- Home Page
-- Register Page
-- Login/Logout Page
-- Likes/Comments
-- Testing
-- Agile Project Goals
-- Validator Testing
-- Deployment
-- Credits
-    - Content
-    - Media
-    - Content Information
+- [Project Plan](#project-plan)
+- [Features](#features)
+- [Navigation](#navigation)
+- [Footer Section](#footer-section)
+- [Home Page](#home-page)
+- [Register Page](#register-page)
+- [Login/Logout Page](#loginlogout-page)
+- [Likes/Comments](#likescomments)
+- [Testing](#testing)
+- [Agile Project Goals](#agile-project-goals)
+- [Validator Testing](#validator-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+    - [Content Information](#content-information)
 
 </details>
 
+<br>
 
 ## Project Plan ##
 The wireframes for this project was made digitally using [**Figma**](https://www.figma.com/).
