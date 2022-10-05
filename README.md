@@ -182,13 +182,22 @@ The live link can be found here - https://wowtaste2022.herokuapp.com/
 
 ### Media ###
 
-- The images of the blog were taken from [**Pexels.com**](https://pixabay.com/). The links are provided below:
+- The images of the blog were taken from [**Pexels**](https://pexels.com/) and [**Wikipedia**](https://www.wikipedia.org/). The links are provided below:
     - https://www.pexels.com/photo/photo-of-truffles-on-the-plate-783153/
     - https://www.pexels.com/photo/food-vegetables-table-leaf-216368/
     - https://www.pexels.com/photo/black-caviar-and-cheese-on-crackers-4161713/
     - https://www.pexels.com/photo/coffee-beans-on-round-wok-2711959/
     - https://www.pexels.com/photo/close-up-of-abalone-rice-hot-pot-8896087/
     - https://www.pexels.com/photo/burger-and-smoothie-with-bowl-of-dried-bananas-and-dates-4553020/
+    - https://www.pexels.com/photo/burger-and-smoothie-with-bowl-of-dried-bananas-and-dates-4553020/
+    - https://www.pexels.com/photo/autumn-composition-with-assorted-pumpkins-and-bread-in-basket-placed-on-plaid-on-grassy-lawn-7245432/
+    - https://www.pexels.com/photo/spoiled-orange-beside-cinnamon-3640474/
+    - https://www.pexels.com/photo/lipstick-tree-with-seed-pods-in-garden-7498671/
+    - https://en.wikipedia.org/wiki/Foie_gras#/media/File:Foie_gras_en_cocotte.jpg
+    - https://en.wikipedia.org/wiki/Ghost_pepper#/media/File:Bhut-Jolokia-pc.jpg
+    - https://www.pexels.com/photo/brown-wooden-chopping-board-with-meat-on-top-1314041/
+    - https://en.wikipedia.org/wiki/Houttuynia_cordata#/media/File:Houttuynia_cordata.jpg
+    - https://en.wikipedia.org/wiki/Asafoetida#/media/File:Asafoetida2.jpg
 
 ### Content Information ###
 
