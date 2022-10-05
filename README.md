@@ -25,8 +25,19 @@ Table of Contents (click here to expand)
     - Media
     - Content Information
 
-
 </details>
+
+
+## Project Plan ##
+The wireframes for this project was made digitally using [**Figma**](https://www.figma.com/).
+
+<details><summary>Wireframes</summary>
+<img src="https://res.cloudinary.com/dborxc531/image/upload/v1664989541/homepage_bu4pzy.png">
+<img src="https://res.cloudinary.com/dborxc531/image/upload/v1664989541/articlepage_t6yqq1.png">
+</details>
+
+<br>
+
 
 ## Features ##
 - ### The Header ###
