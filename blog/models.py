@@ -22,11 +22,10 @@ class Post(models.Model):
         ordering = ['-created_on']
 
     def __str__(self):
-        return self.title
-
+        return f"{self.title} by {self.author}"
 
     def number_of_likes(self):
-        return f"{self.title} by {self.author}"
+        return self.likes.count()
 
 
 class Comment(models.Model):
