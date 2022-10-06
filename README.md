@@ -31,12 +31,21 @@ Table of Contents (click here to expand)
 <br>
 
 ## Project Plan ##
-The wireframes for this project was made digitally using [**Figma**](https://www.figma.com/).
 
-<details><summary>Wireframes</summary>
-<img src="https://res.cloudinary.com/dborxc531/image/upload/v1664989541/homepage_bu4pzy.png">
-<img src="https://res.cloudinary.com/dborxc531/image/upload/v1664989541/articlepage_t6yqq1.png">
-</details>
+- ### User Stories ###
+    - The User Stories of this project are divided into three categories depending on the site user: admin, unregistered or registered user. 
+        - See the table below:
+        ![User Stories](/media/#.PNG)
+
+- ### Wireframes ###
+    - The wireframes for this project was made digitally using [**Figma**](https://www.figma.com/).
+
+        <details><summary>Click here to see wireframes</summary>
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/homepage_wnjiyz.png">
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/articlepage_fzi2ce.png">
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/register_xi7ahb.png">
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/login_woxmbv.png">
+        </details>
 
 <br>
 
