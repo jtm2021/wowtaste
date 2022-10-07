@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+
+{% if user.is_authenticated %}
+
+<!-- to view all posts shared by logged in user page -->
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h3 class="text-center" style="color:black">My Posts</h3>
+            <hr>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12 mt-3 left">
+            <div class="row">
+                {% if post_list|length > 0 %}
+                {% for post in post_list %}
+                <div class="col-md-4">
+                    <div class="card card shadow-lg mb-5 bg-light bg-gradient rounded">
+                        <div class="card-body">
+                            <div class="image-container">
+                                {% if "placeholder" in post.featured_image.url %}
+                                <img src="https://res.cloudinary.com/dborxc531/image/upload/v1664973864/klla0qn8bpexcrzccsnp.jpg"
+                                    class="card-img-top post-img img-fluid" width="100%" height="250" alt="Exotic fruit image">
+                                {% else %}
+                                <img src=" {{ post.featured_image.url }} " class="card-img-top post-img img-fluid" width="100%"
+                                    height="250" alt="An image uploaded by the registered user">
+                                {% endif %}
+                            </div>
+                            <p class="author">Author: {{ post.author }}</p>
+                            {% if user.is_authenticated %}
+                            {% if user.id == post.author.id %}
+                            {% endif %}
+                            {% endif %}
+                            <a href="{% url 'post_detail' post.slug %}" class="post-link">
+                                <h3 class="card-title">{{ post.title }}</h3>
+                                <p class="card-text">{{ post.content }}</p>
+                            </a>
+                            <hr />
+                            <div class="card-info d-flex justify-content-between">
+                                <p class="card-text text-muted h6">{{ post.created_on }}</p>
+                                <p class="like-comment"><i class="far fa-heart"></i> {{ post.number_of_likes}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if forloop.counter|divisibleby:3 %}
+            </div>
+            <div class="row">
+                {% endif %}
+                {% endfor %}
+                <a href="{% url 'add_my_post' %}" role="button" type="submit" class="btn btn-lg btn-outline-info" style="color:black">
+                    Add Post
+                </a>
+            </div>
+            {% else %}
+            <div class="container text-center mt-4">
+                <div>
+                    <p style="color:black">It looks like you haven't shared anything yet on our site. Click on the button below :)
+                        <i class="fa-solid fa-hand-point-down"></i>
+                    </p>
+                    <span style="color:black">Share your post!</span>
+                </div>
+                <div class="mt-4">
+                    <a href="{% url 'add_my_post' %}" role="button" type="submit" class="btn btn-lg btn-outline-info">
+                        Share Your Post
+                    </a>
+                </div>
+            </div>
+
+            {% endif %}
+        </div>
+    </div>
+
+
+    {% if is_paginated %}
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+            <li class="page-item">
+                <a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; Previous </a>
+            </li>
+            {% endif %}
+
+            {% if page_obj.has_next %}
+            <li class="page-item">
+                <a href="?page={{ page_obj.next_page_number }}" class="page-link">Next &raquo;</a></li>
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
+
+</div>
+{% else %}
+
+Warning: Restricted access!
+
+{% endif %}
+
+{% endblock %}

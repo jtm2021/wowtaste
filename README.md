@@ -34,8 +34,8 @@ Table of Contents (click here to expand)
 
 - ### User Stories ###
     - The User Stories of this project are divided into three categories depending on the site user: admin, unregistered or registered user. 
-        - See the table below:
-        ![User Stories](/media/#.PNG)
+    - See the table below:
+    ![User Stories](/media/#.PNG)
 
 - ### Wireframes ###
     - The wireframes for this project was made digitally using [**Figma**](https://www.figma.com/).
@@ -47,6 +47,10 @@ Table of Contents (click here to expand)
         <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/login_woxmbv.png">
         </details>
 
+- ### Database Structure ###
+    - As seen on the diagram below, the tables show relationship between the site user, the post and the comments. 
+    ![Database Structure](/media/#.PNG)
+    
 <br>
 
 
