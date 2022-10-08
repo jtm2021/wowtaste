@@ -85,7 +85,7 @@ Table of Contents (click here to expand)
 - ### Home Page ###
     - The home page section features a welcome message of the blog with a button that redirect the users to the main articles.
 
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665247818/README/home_pxz3kh.png">
 
 
 <br>
@@ -93,22 +93,21 @@ Table of Contents (click here to expand)
 - ### Register Page ###
     - This register page features a form for users to fill out if they want to sign up for the blog.
  
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665247943/README/register_k4kefz.png">
 
 <br>
 
 - ### Login/Logout Page ###
     - This login page features a form for users to fill out if they want to log in. A message will also pop out to ask the users if they want to logout of the blog.
  
-    <img src="#">
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665248017/README/login_vd7wu1.png">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665248086/README/logout_p9swq1.png">
 
 <br>
 
 - ### Likes/Comments ###
     - This feature allows users to like and leave comments in each post.
-    <img src="#">
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665248204/README/likescomment_zuk83c.png">
     
 
 <br>
@@ -118,15 +117,15 @@ Table of Contents (click here to expand)
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
     - Firefox 
 
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665248423/README/firefox_aylcku.png">
 
     - Microsoft Edge
 
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665248337/README/edge_ptqw9v.png">
 
     - Google Chrome
 
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665248267/README/chrome_tbeewg.png">
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.    
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
@@ -141,8 +140,6 @@ Table of Contents (click here to expand)
 
 <br>
 
-### Bugs ###
-- No bugs identified.
 
 ### Validator Testing ###
 - Javascript - The project only uses a small part of javascript and this was tested using [**JShint**](https://jshint.com/)
@@ -205,3 +202,10 @@ The live link can be found here - https://wowtaste2022.herokuapp.com/
     - https://en.wikipedia.org/wiki/Beluga_caviar
     - https://en.wikipedia.org/wiki/Abalone
     - https://en.wikipedia.org/wiki/Kopi_luwak
+    - https://en.wikipedia.org/wiki/Bixa_orellana
+    - https://en.wikipedia.org/wiki/Gochujang
+    - https://en.wikipedia.org/wiki/Foie_gras
+    - https://en.wikipedia.org/wiki/Ghost_pepper
+    - https://en.wikipedia.org/wiki/Venison
+    - https://en.wikipedia.org/wiki/Houttuynia_cordata
+    - https://en.wikipedia.org/wiki/Asafoetida
