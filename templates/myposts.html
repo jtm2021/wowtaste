@@ -33,17 +33,17 @@
                                     height="250" alt="An image uploaded by the registered user">
                                 {% endif %}
                             </div>
-                            <p class="author">Author: {{ post.author }}</p>
+                            <p class="author" style="color: black">Author: {{ post.author }}</p>
                             {% if user.is_authenticated %}
                             {% if user.id == post.author.id %}
                             <div class="container d-flex flex-row-reverse">	
                                 <!-- button for updating -->	
-                                <a href="{% url 'update_post' post.slug %}" role="button"	
+                                <a href="{% url 'update_my_post' post.slug %}" role="button"	
                                     class="btn btn-success bg-success bg-gradient edit-btn">	
-                                    Update	
+                                    Update
                                 </a>	
                                 <!-- button for deleting -->	
-                                <a href="{% url 'delete_post' post.slug %}" role="button"	
+                                <a href="{% url 'delete_my_post' post.slug %}" role="button"	
                                     class="btn btn-danger bg-danger bg-gradient delete-btn me-2">	
                                     Delete	
                                 </a>	

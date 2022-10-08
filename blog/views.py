@@ -131,18 +131,18 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
-class UpdatePost(UpdateView):
+class UpdateMyPost(UpdateView):
     model = Post
-    template_name = 'update_post.html'
+    template_name = 'update_my_post.html'
     form_class = PostForm
     success_url = '/'
 
     def form_valid(self, form):
-        messages.success(self.request, "Youy post has been updated, congrats!")
+        messages.success(self.request, "Your post has been updated, congrats!")
         return super().form_valid(form)
 
 
-class DeletePost(DeleteView):
+class DeleteMyPost(DeleteView):
     model = Post
-    template_name = 'delete_post.html'
+    template_name = 'delete_my_post.html'
     success_url = '/'
