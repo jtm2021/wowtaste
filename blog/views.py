@@ -8,7 +8,6 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib import messages
 
 
-
 class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by('-created_on')
@@ -54,7 +53,6 @@ class AddMyPost(View):
                 form.instance.email = request.user.email
                 form.instance.name = request.user.username
                 form.instance.author = self.request.user
-                form.instance.featured_image = request.POST['featured_image']
                 form.save()
                 messages.success(request, 'Your post is awaiting approval.')
                 return redirect('home')
@@ -74,8 +72,6 @@ class PostDetail(View):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = Comment.objects.filter(approved=True).filter(post=post.id)
-        print(list(comments))
-        # comments = post.comments.filter(approved=True).order_by('created_on')
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
