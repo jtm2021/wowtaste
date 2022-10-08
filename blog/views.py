@@ -1,11 +1,11 @@
 from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.views import generic, View
+from django.views.generic.edit import UpdateView, DeleteView, FormView
 from django.http import HttpResponseRedirect
 from .models import Post
-from .forms import CommentForm
+from .forms import CommentForm, PostForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib import messages
-from .forms import CommentForm, PostForm
 
 
 class PostList(generic.ListView):
@@ -67,11 +67,10 @@ class AddMyPost(View):
 
 
 class PostDetail(View):
-
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
-        comments = post.comments.filter(approved=True).order_by('created_on')
+        comments = post.comments.order_by('created_on')
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
@@ -91,7 +90,7 @@ class PostDetail(View):
     def post(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
-        comments = post.comments.filter(approved=True).order_by('created_on')
+        comments = post.comments.order_by('created_on')
         liked = False
         if post.likes.filter(id=self.request.user.id).exists():
             liked = True
@@ -121,7 +120,6 @@ class PostDetail(View):
 
 
 class PostLike(View):
-
     def post(self, request, slug):
         post = get_object_or_404(Post, slug=slug)
 
@@ -131,3 +129,20 @@ class PostLike(View):
             post.likes.add(request.user)
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
+
+class UpdatePost(UpdateView):
+    model = Post
+    template_name = 'update_post.html'
+    form_class = PostForm
+    success_url = '/'
+
+    def form_valid(self, form):
+        messages.success(self.request, "Youy post has been updated, congrats!")
+        return super().form_valid(form)
+
+
+class DeletePost(DeleteView):
+    model = Post
+    template_name = 'delete_post.html'
+    success_url = '/'

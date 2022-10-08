@@ -36,6 +36,18 @@
                             <p class="author">Author: {{ post.author }}</p>
                             {% if user.is_authenticated %}
                             {% if user.id == post.author.id %}
+                            <div class="container d-flex flex-row-reverse">	
+                                <!-- button for updating -->	
+                                <a href="{% url 'update_post' post.slug %}" role="button"	
+                                    class="btn btn-success bg-success bg-gradient edit-btn">	
+                                    Update	
+                                </a>	
+                                <!-- button for deleting -->	
+                                <a href="{% url 'delete_post' post.slug %}" role="button"	
+                                    class="btn btn-danger bg-danger bg-gradient delete-btn me-2">	
+                                    Delete	
+                                </a>	
+                            </div>
                             {% endif %}
                             {% endif %}
                             <a href="{% url 'post_detail' post.slug %}" class="post-link">

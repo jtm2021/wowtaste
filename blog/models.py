@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
+from django.urls import reverse
+from django.template.defaultfilters import slugify
 
 STATUS = ((0, "Draft"), (1, "Published"))
 
@@ -27,6 +29,14 @@ class Post(models.Model):
     def number_of_likes(self):
         return self.likes.count()
 
+    def save(self, *args, **kwargs):	
+        if not self.slug:	
+            self.slug = slugify(self.title)	
+        return super().save(*args, **kwargs)
+
+    def get_absolute_url(self):	
+        return reverse('post_detail', kwargs={'slug': self.slug})
+
 
 class Comment(models.Model):
 
@@ -36,7 +46,7 @@ class Comment(models.Model):
     email = models.EmailField()
     body = models.TextField()
     created_on = models.DateTimeField(auto_now_add=True)
-    approved = models.BooleanField(default=False)
+    approved = models.BooleanField(default=True)
 
     class Meta:
         ordering = ['created_on']
