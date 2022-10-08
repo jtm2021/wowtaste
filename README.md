@@ -33,14 +33,14 @@ Table of Contents (click here to expand)
 ## Project Plan ##
 
 - ### User Stories ###
-    - The User Stories of this project are divided into three categories depending on the site user: admin, unregistered or registered user. 
+    - The User Stories of this project are divided into three categories depending on the site user: admin, unregistered (guest/visitor) or registered user. 
     - See the table below:
     <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665229579/README/userstories_yun5ib.png">
 
 - ### Wireframes ###
     - The wireframes for this project was made digitally using [**Figma**](https://www.figma.com/).
 
-        <details><summary>Click here to see wireframes</summary>
+        <details><summary>Click here to see wireframes!</summary>
         <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/homepage_wnjiyz.png">
         <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/articlepage_fzi2ce.png">
         <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665083557/Wireframes/register_xi7ahb.png">
@@ -66,7 +66,7 @@ Table of Contents (click here to expand)
 
 - ### Navigation ###
     - The navigation bar is located next to the header. It is simple yet an effective feature of the website.
-    - The navigation includes three links to different sections and these are accessible in each page.
+    - The navigation includes four links to different sections and these are accessible in each page.
     - This feature provides easy navigation for users from page to page across different devices.
 
     <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665231201/README/nav_fspah1.png">
@@ -83,9 +83,7 @@ Table of Contents (click here to expand)
 <br>
 
 - ### Home Page ###
-    - The home page section features the whole content of the blog.
-    - It features different posts that are clickable and redirects the user to each individual article.
-
+    - The home page section features a welcome message of the blog with a button that redirect the users to the main articles.
 
     <img src="#">
 
