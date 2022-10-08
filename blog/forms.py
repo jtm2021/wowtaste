@@ -7,6 +7,7 @@ class CommentForm(forms.ModelForm):
         model = Comment
         fields = ('body',)
 
+
 class PostForm(forms.ModelForm):
     """ This is a post form for the site"""
     class Meta:

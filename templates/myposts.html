@@ -9,7 +9,7 @@
 <div class="container">
     <div class="row">
         <div class="col-8 offset-2">
-            <h3 class="text-center" style="color:black">My Posts</h3>
+            <h3 class="text-center">My Posts</h3>
             <hr>
         </div>
     </div>
@@ -67,17 +67,17 @@
             <div class="row">
                 {% endif %}
                 {% endfor %}
-                <a href="{% url 'add_my_post' %}" role="button" type="submit" class="btn btn-lg btn-outline-info" style="color:black">
+                <a href="{% url 'add_my_post' %}" role="button" type="submit" class="btn btn-lg btn-outline-info">
                     Add Post
                 </a>
             </div>
             {% else %}
             <div class="container text-center mt-4">
                 <div>
-                    <p style="color:black">It looks like you haven't shared anything yet on our site. Click on the button below :)
+                    <p>It looks like you haven't shared anything yet on our site. Click on the button below :)
                         <i class="fa-solid fa-hand-point-down"></i>
                     </p>
-                    <span style="color:black">Share your post!</span>
+                    <span>Share your post!</span>
                 </div>
                 <div class="mt-4">
                     <a href="{% url 'add_my_post' %}" role="button" type="submit" class="btn btn-lg btn-outline-info">

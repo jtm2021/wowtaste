@@ -8,7 +8,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8 mt-3 offset-md-2">
+    <div class="col-md-8 mt-3 offset-md-2 text-center align-items-center">
       <h4>{% trans 'Thanks for visiting WOW.taste blog. Are you sure you want to sign out?' %}</h4>
 
     </div>
@@ -21,7 +21,7 @@
         {% if redirect_field_value %}
         <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
         {% endif %}
-        <button class="btn btn-signup right" type="submit">{% trans 'Sign Out' %}</button>
+        <button class="btn btn-warning text-center" type="submit">{% trans 'Sign Out' %}</button>
       </form>
     </div>
   </div>

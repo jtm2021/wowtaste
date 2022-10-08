@@ -9,7 +9,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-8 mt-3 offset-md-2">
+    <div class="col-12 col-md-6 offset-md-3 text-center">
       <h3>{% trans "Sign In" %}</h3>
 
       <p>{% blocktrans %}Welcome back to WOW.taste blog. To leave a comment or like a post, please log in. If
@@ -20,8 +20,9 @@
 
     </div>
   </div>
+
   <div class="row">
-    <div class="col-md-8 mt-3 offset-md-2">
+    <div class="col-12 col-md-6 offset-md-3 ">
 
       <form class="login" method="POST" action="{% url 'account_login' %}">
         {% csrf_token %}
