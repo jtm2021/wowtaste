@@ -1,7 +1,3 @@
-pylint: disable=missing-module-docstring
-pylint: disable=missing-function-docstring
-
-
 from django.db import models
 from django.contrib.auth.models import User
 from cloudinary.models import CloudinaryField
@@ -33,12 +29,12 @@ class Post(models.Model):
     def number_of_likes(self):
         return self.likes.count()
 
-    def save(self, *args, **kwargs):	
-        if not self.slug:	
-            self.slug = slugify(self.title)	
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.title)
         return super().save(*args, **kwargs)
 
-    def get_absolute_url(self):	
+    def get_absolute_url(self):
         return reverse('post_detail', kwargs={'slug': self.slug})
 
 

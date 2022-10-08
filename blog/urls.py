@@ -1,6 +1,3 @@
-pylint: disable=missing-module-docstring
-pylint: disable=missing-function-docstring
-
 from . import views
 from django.urls import path
 
@@ -13,6 +10,6 @@ urlpatterns = [
     path('<slug:slug>/', views.PostDetail.as_view(), name='post_detail'),
     path('like/<slug:slug>', views.PostLike.as_view(), name='post_like'),
     path('like/<slug:slug>', views.PostLike.as_view(), name='blogpost_like'),
-    path('<slug:slug>/update_my_post', views.UpdateMyPost.as_view(), name='update_my_post'),
-    path('<slug:slug>/delete_my_post', views.DeleteMyPost.as_view(), name='delete_my_post'),
+    path('<slug:slug>/update_my_post', views.UpdateMyPost.as_view(), name='update_my_post'),  # noqa
+    path('<slug:slug>/delete_my_post', views.DeleteMyPost.as_view(), name='delete_my_post'),  # noqa
 ]

@@ -49,7 +49,7 @@ Table of Contents (click here to expand)
 
 - ### Database Structure ###
     - As seen on the diagram below, the tables show relationship between the site user, the post and the comments. 
-<img src="https://res.cloudinary.com/dborxc531/image/upload/v1665229770/README/databasestructure_dsfmrd.png">
+      <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665229770/README/databasestructure_dsfmrd.png">
     
 <br>
 
@@ -60,7 +60,7 @@ Table of Contents (click here to expand)
     - This section is displayed on the left side of the page next to the navigation bar. 
     - The header is also clickable which redirects the user back to the main page.
 
-![Header](/media/header.PNG)
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665231097/README/header_kjidin.png">
 
 <br>
 
@@ -69,7 +69,7 @@ Table of Contents (click here to expand)
     - The navigation includes three links to different sections and these are accessible in each page.
     - This feature provides easy navigation for users from page to page across different devices.
 
-![Navigation Bar](/media/navbar.png)
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665231201/README/nav_fspah1.png">
 
 <br>
 
@@ -78,7 +78,7 @@ Table of Contents (click here to expand)
     - The footer section of the blog is a simple section that provides a social media link to Facebook, YouTube and Twitter.
     
  
-![Footer](/media/footer.PNG)
+    <img src="#">
 
 <br>
 
@@ -87,7 +87,7 @@ Table of Contents (click here to expand)
     - It features different posts that are clickable and redirects the user to each individual article.
 
 
-![Home Page](/media/main-page.PNG)
+    <img src="#">
 
 
 <br>
@@ -95,28 +95,22 @@ Table of Contents (click here to expand)
 - ### Register Page ###
     - This register page features a form for users to fill out if they want to sign up for the blog.
  
-![Register Page](/media/sign-up.PNG)
+    <img src="#">
 
 <br>
 
 - ### Login/Logout Page ###
     - This login page features a form for users to fill out if they want to log in. A message will also pop out to ask the users if they want to logout of the blog.
  
-![Login Page](/media/login.PNG)
-![Logout Page](/media/logout.PNG)
+    <img src="#">
+    <img src="#">
 
 <br>
 
 - ### Likes/Comments ###
     - This feature allows users to like and leave comments in each post.
-    ![Likes](/media/like.PNG)
-
-    - After commenting, this will be subject for admin approval. 
-    ![Comments](/media/comments.PNG)
-    ![Comments Approval](/media/comments-approval.PNG)
-    
-    - Once the admin approves the comment then it is displayed in the comment section.
-    ![Comments Done](/media/commentsdone.PNG)
+    <img src="#">
+    <img src="#">
     
 
 <br>
@@ -126,15 +120,15 @@ Table of Contents (click here to expand)
 - I have tested this page in three different browsers including Chrome, Firefox and Microsoft Edge.
     - Firefox 
 
-    ![Firefox](/media/mozilla.PNG)
+    <img src="#">
 
     - Microsoft Edge
 
-    ![Microsoft Edge](/media/edge.PNG)
+    <img src="#">
 
     - Google Chrome
 
-    ![Google Chrome](/media/chrome.PNG)
+    <img src="#">
 
 - I confirmed that the project is responsive and functions in various screen sizes using the devtools device toolbar.    
 - I confirmed that the features of the website including the navigation bar, heading, contents and other sections are completely clear and easy to understand.
@@ -145,7 +139,7 @@ Table of Contents (click here to expand)
 ## Agile Project Goals ##
 - The project page was utilized in Github to serve as a guide in progressing through each stages of the project.
 
-![Agile Project Goals](/media/agilegoals.PNG)
+<img src="https://res.cloudinary.com/dborxc531/image/upload/v1665231296/README/agile_tdka0d.png">
 
 <br>
 
@@ -154,26 +148,19 @@ Table of Contents (click here to expand)
 
 ### Validator Testing ###
 - Javascript - The project only uses a small part of javascript and this was tested using [**JShint**](https://jshint.com/)
-    ![Javascript](/media/javascript.PNG)
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665231531/README/javascript_qusuyu.png">
 
 
-- Python - No errors were found when passing through the official [**PEP8**](http://pep8online.com/) requirements
-    #### admin.py ####
-    ![admin](/media/adminpy.PNG)
-    #### apps.py ####
-    ![app](/media/appspy.PNG)
-    #### asgi.py ####
-    ![asgi](/media/asgipy.PNG)
-    #### forms.py ####
-    ![forms](/media/formspy.PNG)
-    #### models.py ####
-    ![models](/media/models.PNG)
-    #### urls.py ####
-    ![urls](/media/urlspy.PNG)
-    #### views.py ####
-    ![views](/media/viewspy.PNG)
-    #### wsgi.py ####
-    ![wsgi](/media/wsgipy.PNG)
+- Python - There is ongoing issue with the official [**PEP8**](http://pep8online.com/) website to validate the Python code. So, as a workaround, PEP8 validator was added to my Gitpod workspace by these following steps:
+    1. Run the command pip3 install pycodestyle.
+    2. In the workspace, press Ctrl+Shift+P (or Cmd+Shift+P on Mac).
+    3. Type the word linter into the search bar that appears, and click on Python: Select Linter from the filtered results.
+    4. Select pycodestyle from the list.
+    5. PEP8 errors will now be underlined in red, as well as being listed in the PROBLEMS tab beside your terminal.
+
+    - As seen in the image below, there are no errors or problems detected in my workspace.
+    
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665240047/README/pythonvalidation_wstnkr.png">
 
 
 <br>
