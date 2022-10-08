@@ -1,3 +1,6 @@
+pylint: disable=missing-module-docstring
+pylint: disable=missing-function-docstring
+
 from . import views
 from django.urls import path
 

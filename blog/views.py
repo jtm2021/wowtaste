@@ -10,7 +10,7 @@ from django.contrib import messages
 
 class PostList(generic.ListView):
     model = Post
-    queryset = Post.objects.filter(status=1).order_by('-created_on')
+    queryset = Post.objects.filter(status=1).order_by('- created_on')
     template_name = 'index.html'
     paginate_by = 6
 
@@ -30,7 +30,8 @@ class AddedPostsByUsers(LoginRequiredMixin, generic.ListView):
     paginate_by = 6
 
     def get_queryset(self, *args, **kwargs):
-        return Post.objects.filter(author=self.request.user, status=1).order_by('-created_on')
+        return Post.objects.filter(
+            author=self.request.user, status=1).order_by('-created_on')
 
 
 class AddMyPost(View):
@@ -56,7 +57,7 @@ class AddMyPost(View):
                 messages.success(request, 'Your post is awaiting approval.')
                 return redirect('home')
             else:
-                messages.error(request, 'Error: Something is wrong, please try again!')  
+                messages.error(request, 'Error: Something is wrong,try again!')
                 context = {'form': form}
                 return render(request, 'add_my_post.html', context)
         else:
