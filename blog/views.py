@@ -54,6 +54,7 @@ class AddMyPost(View):
                 form.instance.email = request.user.email
                 form.instance.name = request.user.username
                 form.instance.author = self.request.user
+                form.instance.featured_image = request.POST['featured_image']
                 form.save()
                 messages.success(request, 'Your post is awaiting approval.')
                 return redirect('home')

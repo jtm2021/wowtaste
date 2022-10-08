@@ -49,7 +49,7 @@ Table of Contents (click here to expand)
 
 - ### Database Structure ###
     - As seen on the diagram below, the tables show relationship between the site user, the post and the comments. 
-      <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665229770/README/databasestructure_dsfmrd.png">
+      <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665246146/README/databasestructure_cmncsh.png">
     
 <br>
 
@@ -78,7 +78,7 @@ Table of Contents (click here to expand)
     - The footer section of the blog is a simple section that provides a social media link to Facebook, YouTube and Twitter.
     
  
-    <img src="#">
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1665247404/README/footer_sww6du.png">
 
 <br>
 
