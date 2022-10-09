@@ -2,13 +2,13 @@
 
 {% block content %}
 
-<!-- Hero Image copied from https://mdbootstrap.com/docs/standard/content-styles/background-image/ -->
+<!-- Hero Image Styling copied from https://mdbootstrap.com/docs/standard/content-styles/background-image/ -->
 <div
-  class="hero-img"
-  style="background-image: url(https://res.cloudinary.com/dborxc531/image/upload/v1664973864/klla0qn8bpexcrzccsnp.jpg);"
+  class="hero-img d-flex justify-content-center align-items-center"
+  style="background-image: url(https://res.cloudinary.com/dborxc531/image/upload/v1664973864/klla0qn8bpexcrzccsnp.jpg); height: 85vh; "
 >
-  <div class="card-body text-white text-center" style="padding: 6%; font-size: 30px; text-shadow: -1px -1px 0 #000">
-    <h5 class="card-title" style="font-size: 50px;">Welcome to WOW.taste!</h5>
+  <div class="card-body text-white text-center" style="padding: 6%; font-size: 1.8vw; text-shadow: -1px -1px 0 #000">
+    <h5 class="card-title" style="font-size: 3vw;">Welcome to WOW.taste!</h5>
     <br>
     <p class="card-text">
         Discover the wonder of exotic flavors around the world!
@@ -16,11 +16,12 @@
         <br>
         This blog features various exotic fruits, ingredients and spices on earth. 
         <br>
-        From Asia to Latin America, uncover
-        rare flavors that you can use in your own home to elevate the power of your recipes!
+        From Asia to Latin America, uncover rare flavors that you can use in your own home 
+        <br>
+        elevate the power of your recipes!
     </p>
     <br>
-    <a href="{% url 'articles' %}" class="btn btn-outline-light" style="font-size: 30px;">Discover it here!</a>
+    <a href="{% url 'articles' %}" class="btn btn-warning" style="font-size: 1.8vw;">Discover it here!</a>
   </div>
 
 {% endblock %}
