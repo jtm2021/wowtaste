@@ -163,12 +163,62 @@ Table of Contents (click here to expand)
 <br>
 
 ## Deployment ##
-- The site was deployed to Heroku website. The steps to deploy are as follows:
-    - Open a web browser (like Chrome, Firefox or Edge)
-    - Login to Heroku and go to deploy tab.
-    - In the manual deploy section, choose main branch.
-    - Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link will be provided for the completed website. 
-The live link can be found here - https://wowtaste2022.herokuapp.com/
+This project was deployed initially to [**Heroku**](https://www.heroku.com/). However, due to the discontinuation of 
+their free services, the data was eventually migrated using [**ElephantSQL**](https://www.elephantsql.com/) and the 
+project was deployed to [**Render**](https://render.com/). Here are the steps below:
+
+### I. DATABASE CREATION ###
+- First, create the database with the following steps:
+    1. Create an account in ElephantSQL.com to access your dashboard.
+    2. Create new instance.
+    3. Set up your plan by using Tiny Turtle (Free Plan) and leave the tags field blank.
+    4. Select your region, then click "Review".
+    5. Check your details are correct and then click "Create Instance".
+
+### II. DATA MIGRATION ###
+- Migration of data was achieved with a handy tool by Code Institute using the following steps:
+    1. Navigate to the [** Postgres Migration Tool repo**](https://github.comCode-Institute-Orgpostgres-migration-tool) repo   on Github on a new browser.
+    2. Click "Gitpod" buttton to open a new workspace.
+    3. Run the script with the following command in the terminal: `python3 reel2reel.py`
+    4. Open Heroku and navigate to your project's settings
+    5. Click the "Reveal Config Vars" button.
+    6. Copy the value in the DATABASE_URL Config Var. It will start with `postgres://`
+    7. Return to Gitpod and paste in the URL you just copied into the terminal where prompted to provideyourDATABASE_URL and   click enter
+    8. In your original browser tab, get your ElephantSQL database URL. Again, it will start with `postgres://`
+    9. Return to Gitpod and paste in the URL where prompted. After hitting Enter, the data will now be downloadedfromHeroku    and uploaded to your ElephantSQL database.
+    10. To test that your database has been moved successfully, return to ElephantSQL and select BROWSER
+    11. Click the “Table queries” button. If you see any options in the dropdown, your tables have been created
+    12. Select a table name you recognise, and then click “Execute”
+    13. You should see your data displayed relating to the table you selected (You have successfully created a newdatabase   instance and migrated all your data)
+    14. Now that your database is configured, you need to prepare your repository for deployment to Render. First,create a file     in the root directory of your repository called `build.sh`
+    15. Paste in the following code to build.sh, then save the file.
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668849009/README/build_sh_yzcyfb.png">
+    16. In your settings.py file add the following code below the declaration of your ALLOWED_HOSTS variable
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668849106/README/settings_py_sdiw4u.png">
+    17. Unlike Heroku, Render does not require a Procfile - so you can delete this file.
+    18. Add, commit and push your changes to GitHub.
+
+### III. WEB SERVICE CREATION ###
+- A web service allows a full stack application to be deployed. Connecting it to a repository on GitHub allows the repo to be built and deployed on Render’s hosting platform.
+    1. Navigate to Render.com and log in.
+    2. Click "New+".
+    3. Click “Web Service”.
+    4. Search for relevant repo and click “Connect. This will redirect to a new page with some fields to be completed. Ensure the following settings match.
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668850241/README/deployment_settings_ddqblf.png">
+    5. Set the BUILD COMMAND to:
+        `./build.sh`
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668850468/README/build_command_bozxpy.png">
+    6. Set the BUILD COMMAND to:
+        `gunicorn <PROJECT_NAME>.wsgi:application`
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668850469/README/start_command_yqkz48.png">
+    7. Ensure the Free plan $0/month is selected.
+    
+
+- The site was initially deployed to Heroku website. The steps to deploy are as follows done in the past:
+    1. Open a web browser (like Chrome, Firefox or Edge)
+    2. Login to Heroku and go to deploy tab.
+    3. In the manual deploy section, choose main branch.
+    4. Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link will be provided for the completed website.
 
 <br>
 
