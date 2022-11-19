@@ -223,7 +223,7 @@ project was deployed to [**Render**](https://render.com/). Here are the steps be
     6. Paste in the copied text to the File contents text area input and ensure the Filename is env.py
     <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668851274/README/env_file_wc2gpv.png">
 
-### BUILD & DEPLOYMENT ###
+### V. BUILD & DEPLOYMENT ###
 - These are the final steps to deployment. First, the build is initiated. Then the build and deployment processes are carried out. Finally, the application is deployed and ready for public viewing.
     1. Click “Create Web Service”.
     2. Wait for deployment…
