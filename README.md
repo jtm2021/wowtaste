@@ -212,13 +212,38 @@ project was deployed to [**Render**](https://render.com/). Here are the steps be
         `gunicorn <PROJECT_NAME>.wsgi:application`
         <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668850469/README/start_command_yqkz48.png">
     7. Ensure the Free plan $0/month is selected.
+
+### IV. ENVIRONMENT VARIABLES ###
+- During the development process you may have used an env.py file which contained sensitive information. For the application to perform correctly, this information is required in the production environment. Here are the steps below:
+    1. Copy the content of your existing env.py file to your clipboard.
+    2. Scroll down and click “Advanced”
+    3. Click “Add Environment Variable”
+    4. Add a key: WEB_CONCURRENCY and a value: 4
+    5. Click “Add Secret File”
+    6. Paste in the copied text to the File contents text area input and ensure the Filename is env.py
+    <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668851274/README/env_file_wc2gpv.png">
+
+### BUILD & DEPLOYMENT ###
+- These are the final steps to deployment. First, the build is initiated. Then the build and deployment processes are carried out. Finally, the application is deployed and ready for public viewing.
+    1. Click “Create Web Service”.
+    2. Wait for deployment…
+    3. Deployment completed!
+    4. Open the deployed site via the link below the WEB SERVICE name:
+
+         https://wow-taste.onrender.com
+
+        <img src="https://res.cloudinary.com/dborxc531/image/upload/v1668851511/README/web_service_phzrhy.png">
+    
     
 
-- The site was initially deployed to Heroku website. The steps to deploy are as follows done in the past:
-    1. Open a web browser (like Chrome, Firefox or Edge)
-    2. Login to Heroku and go to deploy tab.
-    3. In the manual deploy section, choose main branch.
-    4. Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link will be provided for the completed website.
+### (OLD) DEPLOYMENT TO HEROKU ###
+    
+    
+    The site was initially deployed to Heroku website. The steps to deploy are as follows:
+        1. Open a web browser (like Chrome, Firefox or Edge)
+        2. Login to Heroku and go to deploy tab.
+        3. In the manual deploy section, choose main branch.
+        4. Once the main branch has been selected, click the "Deploy Branch" button, wait for it to finish the process then a link will be provided for the completed website.
 
 <br>
 
